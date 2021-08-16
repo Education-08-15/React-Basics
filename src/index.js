@@ -6,7 +6,6 @@ import Message from './components/Message';
 const App = () => {
   return (
     <div>
-      {' '}
       <Message />
       <hr />
       <Counter />
