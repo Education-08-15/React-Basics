@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
-import Message from './components/Message';
+import ClassClick from './components/ClassClick';
+import EventBindInClass from './components/EventBindInClass';
+import FunctionClick from './components/FunctionClick';
 
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      React Basics : Event Handling
+      <hr />
+      <FunctionClick />
+      <ClassClick />
+      <EventBindInClass />
+    </div>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
