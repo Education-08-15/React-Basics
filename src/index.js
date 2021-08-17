@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
-import Message from './components/Message';
+
+import UserGreeting from './components/ifElse';
 
 const App = () => {
   return (
     <div>
       <h4>
-        Welcome to React Basics Course
-        <br />
-        Visit branch to know more
+        React Basics Course : Conditional Rendering
+        <hr />
+        <UserGreeting />
       </h4>
     </div>
   );
