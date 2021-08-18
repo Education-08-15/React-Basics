@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
-import Message from './components/Message';
+import ListRendering from './components/ListRendering';
 
 const App = () => {
   return (
     <div>
-      <h4>
-        Welcome to React Basics Course
-        <br />
-        Visit branch to know more
-      </h4>
+      <h4>React Basics Course : List Rendering</h4>
+      <hr />
+      <ListRendering />
     </div>
   );
 };
